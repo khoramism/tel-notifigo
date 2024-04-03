@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  telnotif:
+    image: khoramism/tel-notifigo
+    ports:
+      - "8787:8787"
+    env_file:
+      - ./.env
